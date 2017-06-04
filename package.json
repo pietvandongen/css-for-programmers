@@ -1,0 +1,42 @@
+{
+  "name": "css-for-programmers",
+  "version": "1.0.0",
+  "description": "Developers seem to be irrationally afraid of CSS, somehow. This repository show the they do not need to be.",
+  "main": "./application/index.html",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build --isProductionBuild=${CONTINUOUS_INTEGRATION}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietvandongen/css-for-programmers"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "programmers",
+    "fear",
+    "irrationality",
+    "html",
+    "simple"
+  ],
+  "author": "Piet van Dongen (http://www.pietvandongen.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pietvandongen/css-for-programmers/issues"
+  },
+  "homepage": "https://github.com/pietvandongen/css-for-programmers#readme",
+  "devDependencies": {
+    "@types/jquery": "2.0.46",
+    "bootstrap": "4.0.0-alpha.6",
+    "browser-sync": "2.18.12",
+    "browserify": "14.4.0",
+    "del": "2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-htmlhint": "0.3.1",
+    "gulp-sass": "3.1.0",
+    "gulp-sass-lint": "1.3.2",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-util": "3.0.8"
+  }
+}
