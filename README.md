@@ -1,4 +1,4 @@
-# CSS for betas
+# CSS for programmers
 
 Developers seem to be irrationally afraid of CSS, somehow. They try to offload the 'creative work' to 'creative people', like frontend developers or designers. That's unnecessary or even harmful, since you're depriving yourself of essential knowledge.
 
