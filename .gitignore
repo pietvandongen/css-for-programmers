@@ -1,0 +1,7 @@
+# Development related files
+*.iml
+.idea
+
+# Generated files
+node_modules/
+application/
